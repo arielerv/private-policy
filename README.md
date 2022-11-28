@@ -19,5 +19,7 @@ Lista de permisos
 |:------------------------------------------------------------------------:|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |                      `android.permission.INTERNET`                       | Se requiere internet para acceder a los servidores de verifikar ya sea tanto en el login, como para el envío de una inspección.                                                                                   |
 |                       `android.permission.CAMERA`                        | Para cada imperfección, o en algunas secciones como el frente, la app le solicitará acceso a la camara, en el caso de las imperfecciones, se requiere que suba una foto mostrando la imperfección para guardarlo. |
+|                       `android.permission.READ_EXTERNAL_STORAGE`         | Se requiere para leer las imagenes de almacenamientos externos.                                                                                                                                                   |
+|                       `android.permission.WRITE_EXTERNAL_STORAGE`        | En el caso que el almacenamiento sea externo, se generará una copia del recurso que se enviará.                                                                                                                   |
 
  <hr style="border:1px solid gray">
